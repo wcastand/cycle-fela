@@ -1,36 +1,41 @@
-import { makeDOMDriver, h as hdom } from '@cycle/dom'
+import { makeDOMDriver } from '@cycle/dom'
+import { h } from 'snabbdom'
 import fela from 'fela'
 import felaDom from 'fela-dom'
 
 const { createRenderer } = fela
 const { render } = felaDom
 
-export default function makeFelaDomDriver(selector, staticRules = () => ({})) {
-  const fn = makeDOMDriver(selector)
-  const renderer = createRenderer({})
-  const mountNode = document.createElement('style')
-  document.head.appendChild(mountNode)
-  render(renderer, mountNode)
-
-  renderer.renderStatic(staticRules)
-
-  function createClassNames(vnode) {
+export function createClassNames(renderer) {
+  return vnode => {
     const data = vnode.data || {}
     const props = data.props || {}
     const staticClassNames = props.className || ''
     const children = typeof vnode.children !== 'undefined'
-      ? vnode.children.map(createClassNames)
+      ? vnode.children.map(createClassNames(renderer))
       : typeof vnode.text !== 'undefined' ? vnode.text : vnode.children
 
     if (typeof data.component === 'function') {
-      console.log(staticClassNames)
       const className =
         renderer.renderRule(data.component, data) +
         `${staticClassNames !== '' ? ' ' + staticClassNames : ''}`
       const p = className !== '' ? Object.assign({}, data, { props: { className } }) : data
-      return hdom(vnode.sel, p, children)
+      return Object.assign({}, vnode, { children, data: p })
     }
-    return hdom(vnode.sel, data, children)
+    return Object.assign({}, vnode, { children })
   }
-  return (vnode$, name) => fn(vnode$.map(createClassNames), name)
+}
+
+export default function makeFelaDomDriver(
+  selector,
+  { renderedOpts = {}, customStyleNode } = {},
+  staticRules = () => ({}),
+) {
+  const fn = makeDOMDriver(selector)
+  const renderer = createRenderer(renderedOpts)
+  const mountNode = customStyleNode || document.createElement('style')
+  document.head.appendChild(mountNode)
+  render(renderer, mountNode)
+  renderer.renderStatic(staticRules)
+  return (vnode$, name) => fn(vnode$.map(createClassNames(renderer)), name)
 }

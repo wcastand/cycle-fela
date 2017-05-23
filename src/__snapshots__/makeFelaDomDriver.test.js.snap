@@ -1,0 +1,2807 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cycle app should have a dom and a style 1`] = `
+<style
+  data-fela-stylesheet=""
+/>
+`;
+
+exports[`Cycle app should have a dom and a style 2`] = `
+<div
+  id="app-test"
+/>
+`;
+
+exports[`createClassNames should return an object with component props 1`] = `"a"`;
+
+exports[`makeFelaDomDriver should return a stream of the DOM 1`] = `
+MainDOMSource {
+  "_delegators": Map {},
+  "_isolateModule": IsolateModule {
+    "delegatorsByFullScope": Map {},
+    "elementsByFullScope": Map {},
+    "fullScopesBeingUpdated": Array [],
+  },
+  "_name": "DOM",
+  "_namespace": Array [],
+  "_rootElement$": MemoryStream {
+    "_d": false,
+    "_dl": Object {},
+    "_err": Object {},
+    "_has": true,
+    "_ils": Array [
+      Object {
+        "_c": [Function],
+        "_e": [Function],
+        "_n": [Function],
+        "error": [Function],
+      },
+    ],
+    "_prod": StartWith {
+      "ins": Stream {
+        "_d": false,
+        "_dl": Object {},
+        "_err": Object {},
+        "_ils": Array [
+          [Circular],
+        ],
+        "_prod": Merge {
+          "ac": 2,
+          "insArr": Array [
+            Stream {
+              "_d": false,
+              "_dl": Object {},
+              "_err": Object {},
+              "_ils": Array [
+                [Circular],
+              ],
+              "_prod": MapOp {
+                "f": [Function],
+                "ins": Stream {
+                  "_d": false,
+                  "_dl": Object {},
+                  "_err": Object {},
+                  "_ils": Array [
+                    [Circular],
+                  ],
+                  "_prod": Drop {
+                    "dropped": 2,
+                    "ins": MemoryStream {
+                      "_d": false,
+                      "_dl": Object {},
+                      "_err": Object {},
+                      "_has": true,
+                      "_ils": Array [
+                        [Circular],
+                      ],
+                      "_prod": Fold {
+                        "acc": Object {
+                          "children": Array [
+                            Object {
+                              "children": "test",
+                              "data": Object {
+                                "component": [Function],
+                              },
+                              "elm": <div>
+                                test
+</div>,
+                              "key": undefined,
+                              "sel": "div",
+                              "text": "test",
+                            },
+                          ],
+                          "data": Object {},
+                          "elm": <div
+                            id="app"
+>
+                            <div>
+                                                        test
+                            </div>
+</div>,
+                          "key": undefined,
+                          "sel": "div#app",
+                          "text": undefined,
+                        },
+                        "f": [Function],
+                        "ins": Stream {
+                          "_d": false,
+                          "_dl": Object {},
+                          "_err": Object {},
+                          "_ils": Array [
+                            [Circular],
+                          ],
+                          "_prod": MapOp {
+                            "f": [Function],
+                            "ins": Stream {
+                              "_d": false,
+                              "_dl": Object {},
+                              "_err": Object {},
+                              "_ils": Array [
+                                [Circular],
+                              ],
+                              "_prod": Merge {
+                                "ac": 1,
+                                "insArr": Array [
+                                  Stream {
+                                    "_d": false,
+                                    "_dl": Object {},
+                                    "_err": Object {},
+                                    "_ils": Array [],
+                                    "_prod": EndWhen {
+                                      "ins": Stream {
+                                        "_d": false,
+                                        "_dl": Object {},
+                                        "_err": Object {},
+                                        "_ils": Array [],
+                                        "_prod": MapOp {
+                                          "f": [Function],
+                                          "ins": Stream {
+                                            "_d": false,
+                                            "_dl": Object {},
+                                            "_err": Object {},
+                                            "_ils": Array [],
+                                            "_prod": FromArray {
+                                              "a": Array [
+                                                Object {
+                                                  "children": undefined,
+                                                  "data": Object {
+                                                    "component": [Function],
+                                                  },
+                                                  "elm": undefined,
+                                                  "key": undefined,
+                                                  "sel": "div",
+                                                  "text": "test",
+                                                },
+                                              ],
+                                              "type": "fromArray",
+                                            },
+                                            "_stopID": Object {},
+                                            "_target": Object {},
+                                          },
+                                          "out": Object {},
+                                          "type": "map",
+                                        },
+                                        "_stopID": Object {},
+                                        "_target": Object {},
+                                      },
+                                      "o": Stream {
+                                        "_d": false,
+                                        "_dl": Object {},
+                                        "_err": Object {},
+                                        "_ils": Array [
+                                          [Circular],
+                                        ],
+                                        "_prod": Object {},
+                                        "_stopID": Object {},
+                                        "_target": Object {},
+                                      },
+                                      "oil": Object {
+                                        "_c": [Function],
+                                        "_e": [Function],
+                                        "_n": [Function],
+                                      },
+                                      "out": Object {},
+                                      "type": "endWhen",
+                                    },
+                                    "_stopID": Object {},
+                                    "_target": Object {},
+                                  },
+                                  Stream {
+                                    "_d": false,
+                                    "_dl": Object {},
+                                    "_err": Object {},
+                                    "_ils": Array [
+                                      [Circular],
+                                    ],
+                                    "_prod": Object {},
+                                    "_stopID": Object {},
+                                    "_target": Object {},
+                                  },
+                                ],
+                                "out": [Circular],
+                                "type": "merge",
+                              },
+                              "_stopID": Object {},
+                              "_target": Object {},
+                            },
+                            "out": [Circular],
+                            "type": "map",
+                          },
+                          "_stopID": Object {},
+                          "_target": Object {},
+                        },
+                        "out": [Circular],
+                        "seed": Object {
+                          "children": Array [],
+                          "data": Object {
+                            "attrs": Object {},
+                          },
+                          "elm": <div
+                            id="app"
+>
+                            <div>
+                                                        test
+                            </div>
+</div>,
+                          "key": undefined,
+                          "sel": "div#app",
+                          "text": undefined,
+                        },
+                        "type": "fold",
+                      },
+                      "_stopID": Object {},
+                      "_target": Object {},
+                      "_v": Object {
+                        "children": Array [
+                          Object {
+                            "children": "test",
+                            "data": Object {
+                              "component": [Function],
+                            },
+                            "elm": <div>
+                              test
+</div>,
+                            "key": undefined,
+                            "sel": "div",
+                            "text": "test",
+                          },
+                        ],
+                        "data": Object {},
+                        "elm": <div
+                          id="app"
+>
+                          <div>
+                                                    test
+                          </div>
+</div>,
+                        "key": undefined,
+                        "sel": "div#app",
+                        "text": undefined,
+                      },
+                    },
+                    "max": 1,
+                    "out": [Circular],
+                    "type": "drop",
+                  },
+                  "_stopID": Object {},
+                  "_target": Object {},
+                },
+                "out": [Circular],
+                "type": "map",
+              },
+              "_stopID": Object {},
+              "_target": Object {},
+            },
+            Stream {
+              "_d": false,
+              "_dl": Object {},
+              "_err": Object {},
+              "_ils": Array [
+                [Circular],
+              ],
+              "_prod": Object {
+                "_start": [Function],
+                "_stop": [Function],
+              },
+              "_stopID": Object {},
+              "_target": Object {},
+            },
+          ],
+          "out": [Circular],
+          "type": "merge",
+        },
+        "_stopID": Object {},
+        "_target": Object {},
+      },
+      "out": [Circular],
+      "type": "startWith",
+      "val": <div
+        id="app"
+>
+        <div>
+                test
+        </div>
+</div>,
+    },
+    "_stopID": Object {},
+    "_target": Object {},
+    "_v": <div
+      id="app"
+>
+      <div>
+            test
+      </div>
+</div>,
+  },
+  "_sanitation$": Stream {
+    "_d": false,
+    "_dl": Object {},
+    "_err": Object {},
+    "_ils": Array [
+      Merge {
+        "ac": 1,
+        "insArr": Array [
+          Stream {
+            "_d": false,
+            "_dl": Object {},
+            "_err": Object {},
+            "_ils": Array [],
+            "_prod": EndWhen {
+              "ins": Stream {
+                "_d": false,
+                "_dl": Object {},
+                "_err": Object {},
+                "_ils": Array [],
+                "_prod": MapOp {
+                  "f": [Function],
+                  "ins": Stream {
+                    "_d": false,
+                    "_dl": Object {},
+                    "_err": Object {},
+                    "_ils": Array [],
+                    "_prod": FromArray {
+                      "a": Array [
+                        Object {
+                          "children": undefined,
+                          "data": Object {
+                            "component": [Function],
+                          },
+                          "elm": undefined,
+                          "key": undefined,
+                          "sel": "div",
+                          "text": "test",
+                        },
+                      ],
+                      "type": "fromArray",
+                    },
+                    "_stopID": Object {},
+                    "_target": Object {},
+                  },
+                  "out": Object {},
+                  "type": "map",
+                },
+                "_stopID": Object {},
+                "_target": Object {},
+              },
+              "o": [Circular],
+              "oil": Object {
+                "_c": [Function],
+                "_e": [Function],
+                "_n": [Function],
+              },
+              "out": Object {},
+              "type": "endWhen",
+            },
+            "_stopID": Object {},
+            "_target": Object {},
+          },
+          [Circular],
+        ],
+        "out": Stream {
+          "_d": false,
+          "_dl": Object {},
+          "_err": Object {},
+          "_ils": Array [
+            MapOp {
+              "f": [Function],
+              "ins": [Circular],
+              "out": Stream {
+                "_d": false,
+                "_dl": Object {},
+                "_err": Object {},
+                "_ils": Array [
+                  Fold {
+                    "acc": Object {
+                      "children": Array [
+                        Object {
+                          "children": "test",
+                          "data": Object {
+                            "component": [Function],
+                          },
+                          "elm": <div>
+                            test
+</div>,
+                          "key": undefined,
+                          "sel": "div",
+                          "text": "test",
+                        },
+                      ],
+                      "data": Object {},
+                      "elm": <div
+                        id="app"
+>
+                        <div>
+                                                test
+                        </div>
+</div>,
+                      "key": undefined,
+                      "sel": "div#app",
+                      "text": undefined,
+                    },
+                    "f": [Function],
+                    "ins": [Circular],
+                    "out": MemoryStream {
+                      "_d": false,
+                      "_dl": Object {},
+                      "_err": Object {},
+                      "_has": true,
+                      "_ils": Array [
+                        Drop {
+                          "dropped": 2,
+                          "ins": [Circular],
+                          "max": 1,
+                          "out": Stream {
+                            "_d": false,
+                            "_dl": Object {},
+                            "_err": Object {},
+                            "_ils": Array [
+                              MapOp {
+                                "f": [Function],
+                                "ins": [Circular],
+                                "out": Stream {
+                                  "_d": false,
+                                  "_dl": Object {},
+                                  "_err": Object {},
+                                  "_ils": Array [
+                                    Merge {
+                                      "ac": 2,
+                                      "insArr": Array [
+                                        [Circular],
+                                        Stream {
+                                          "_d": false,
+                                          "_dl": Object {},
+                                          "_err": Object {},
+                                          "_ils": Array [
+                                            [Circular],
+                                          ],
+                                          "_prod": Object {
+                                            "_start": [Function],
+                                            "_stop": [Function],
+                                          },
+                                          "_stopID": Object {},
+                                          "_target": Object {},
+                                        },
+                                      ],
+                                      "out": Stream {
+                                        "_d": false,
+                                        "_dl": Object {},
+                                        "_err": Object {},
+                                        "_ils": Array [
+                                          MemoryStream {
+                                            "_d": false,
+                                            "_dl": Object {},
+                                            "_err": Object {},
+                                            "_has": true,
+                                            "_ils": Array [
+                                              Object {
+                                                "_c": [Function],
+                                                "_e": [Function],
+                                                "_n": [Function],
+                                                "error": [Function],
+                                              },
+                                            ],
+                                            "_prod": StartWith {
+                                              "ins": [Circular],
+                                              "out": [Circular],
+                                              "type": "startWith",
+                                              "val": <div
+                                                id="app"
+>
+                                                <div>
+                                                                                                test
+                                                </div>
+</div>,
+                                            },
+                                            "_stopID": Object {},
+                                            "_target": Object {},
+                                            "_v": <div
+                                              id="app"
+>
+                                              <div>
+                                                                                            test
+                                              </div>
+</div>,
+                                          },
+                                        ],
+                                        "_prod": [Circular],
+                                        "_stopID": Object {},
+                                        "_target": Object {},
+                                      },
+                                      "type": "merge",
+                                    },
+                                  ],
+                                  "_prod": [Circular],
+                                  "_stopID": Object {},
+                                  "_target": Object {},
+                                },
+                                "type": "map",
+                              },
+                            ],
+                            "_prod": [Circular],
+                            "_stopID": Object {},
+                            "_target": Object {},
+                          },
+                          "type": "drop",
+                        },
+                      ],
+                      "_prod": [Circular],
+                      "_stopID": Object {},
+                      "_target": Object {},
+                      "_v": Object {
+                        "children": Array [
+                          Object {
+                            "children": "test",
+                            "data": Object {
+                              "component": [Function],
+                            },
+                            "elm": <div>
+                              test
+</div>,
+                            "key": undefined,
+                            "sel": "div",
+                            "text": "test",
+                          },
+                        ],
+                        "data": Object {},
+                        "elm": <div
+                          id="app"
+>
+                          <div>
+                                                    test
+                          </div>
+</div>,
+                        "key": undefined,
+                        "sel": "div#app",
+                        "text": undefined,
+                      },
+                    },
+                    "seed": Object {
+                      "children": Array [],
+                      "data": Object {
+                        "attrs": Object {},
+                      },
+                      "elm": <div
+                        id="app"
+>
+                        <div>
+                                                test
+                        </div>
+</div>,
+                      "key": undefined,
+                      "sel": "div#app",
+                      "text": undefined,
+                    },
+                    "type": "fold",
+                  },
+                ],
+                "_prod": [Circular],
+                "_stopID": Object {},
+                "_target": Object {},
+              },
+              "type": "map",
+            },
+          ],
+          "_prod": [Circular],
+          "_stopID": Object {},
+          "_target": Object {},
+        },
+        "type": "merge",
+      },
+    ],
+    "_prod": Object {},
+    "_stopID": Object {},
+    "_target": Object {},
+  },
+  "isolateSink": [Function],
+  "isolateSource": [Function],
+}
+`;
+
+exports[`makeFelaDomDriver should return a stream of the DOM 2`] = `
+MainDOMSource {
+  "_delegators": Map {},
+  "_isolateModule": IsolateModule {
+    "delegatorsByFullScope": Map {},
+    "elementsByFullScope": Map {},
+    "fullScopesBeingUpdated": Array [],
+  },
+  "_name": "DOM",
+  "_namespace": Array [],
+  "_rootElement$": MemoryStream {
+    "_d": false,
+    "_dl": Object {},
+    "_err": Object {},
+    "_has": true,
+    "_ils": Array [
+      Object {
+        "_c": [Function],
+        "_e": [Function],
+        "_n": [Function],
+        "error": [Function],
+      },
+    ],
+    "_prod": StartWith {
+      "ins": Stream {
+        "_d": false,
+        "_dl": Object {},
+        "_err": Object {},
+        "_ils": Array [
+          [Circular],
+        ],
+        "_prod": Merge {
+          "ac": 2,
+          "insArr": Array [
+            Stream {
+              "_d": false,
+              "_dl": Object {},
+              "_err": Object {},
+              "_ils": Array [
+                [Circular],
+              ],
+              "_prod": MapOp {
+                "f": [Function],
+                "ins": Stream {
+                  "_d": false,
+                  "_dl": Object {},
+                  "_err": Object {},
+                  "_ils": Array [
+                    [Circular],
+                  ],
+                  "_prod": Drop {
+                    "dropped": 2,
+                    "ins": MemoryStream {
+                      "_d": false,
+                      "_dl": Object {},
+                      "_err": Object {},
+                      "_has": true,
+                      "_ils": Array [
+                        [Circular],
+                      ],
+                      "_prod": Fold {
+                        "acc": Object {
+                          "children": Array [
+                            Object {
+                              "children": Array [
+                                Object {
+                                  "children": "test",
+                                  "data": Object {
+                                    "component": [Function],
+                                  },
+                                  "elm": <div>
+                                    test
+</div>,
+                                  "key": undefined,
+                                  "sel": "div",
+                                  "text": "test",
+                                },
+                                Object {
+                                  "children": "test span",
+                                  "data": Object {
+                                    "component": [Function],
+                                  },
+                                  "elm": <span>
+                                    test span
+</span>,
+                                  "key": undefined,
+                                  "sel": "span",
+                                  "text": "test span",
+                                },
+                              ],
+                              "data": Object {
+                                "component": [Function],
+                              },
+                              "elm": <div>
+                                <div>
+                                                                test
+                                </div>
+                                <span>
+                                                                test span
+                                </span>
+</div>,
+                              "key": undefined,
+                              "sel": "div",
+                              "text": undefined,
+                            },
+                          ],
+                          "data": Object {},
+                          "elm": <div
+                            id="app"
+>
+                            <div>
+                                                        <div>
+                                                                                    test
+                                                        </div>
+                                                        <span>
+                                                                                    test span
+                                                        </span>
+                            </div>
+</div>,
+                          "key": undefined,
+                          "sel": "div#app",
+                          "text": undefined,
+                        },
+                        "f": [Function],
+                        "ins": Stream {
+                          "_d": false,
+                          "_dl": Object {},
+                          "_err": Object {},
+                          "_ils": Array [
+                            [Circular],
+                          ],
+                          "_prod": MapOp {
+                            "f": [Function],
+                            "ins": Stream {
+                              "_d": false,
+                              "_dl": Object {},
+                              "_err": Object {},
+                              "_ils": Array [
+                                [Circular],
+                              ],
+                              "_prod": Merge {
+                                "ac": 1,
+                                "insArr": Array [
+                                  Stream {
+                                    "_d": false,
+                                    "_dl": Object {},
+                                    "_err": Object {},
+                                    "_ils": Array [],
+                                    "_prod": EndWhen {
+                                      "ins": Stream {
+                                        "_d": false,
+                                        "_dl": Object {},
+                                        "_err": Object {},
+                                        "_ils": Array [],
+                                        "_prod": MapOp {
+                                          "f": [Function],
+                                          "ins": Stream {
+                                            "_d": false,
+                                            "_dl": Object {},
+                                            "_err": Object {},
+                                            "_ils": Array [],
+                                            "_prod": FromArray {
+                                              "a": Array [
+                                                Object {
+                                                  "children": Array [
+                                                    Object {
+                                                      "children": undefined,
+                                                      "data": Object {
+                                                        "component": [Function],
+                                                      },
+                                                      "elm": undefined,
+                                                      "key": undefined,
+                                                      "sel": "div",
+                                                      "text": "test",
+                                                    },
+                                                    Object {
+                                                      "children": undefined,
+                                                      "data": Object {
+                                                        "component": [Function],
+                                                      },
+                                                      "elm": undefined,
+                                                      "key": undefined,
+                                                      "sel": "span",
+                                                      "text": "test span",
+                                                    },
+                                                  ],
+                                                  "data": Object {
+                                                    "component": [Function],
+                                                  },
+                                                  "elm": undefined,
+                                                  "key": undefined,
+                                                  "sel": "div",
+                                                  "text": undefined,
+                                                },
+                                              ],
+                                              "type": "fromArray",
+                                            },
+                                            "_stopID": Object {},
+                                            "_target": Object {},
+                                          },
+                                          "out": Object {},
+                                          "type": "map",
+                                        },
+                                        "_stopID": Object {},
+                                        "_target": Object {},
+                                      },
+                                      "o": Stream {
+                                        "_d": false,
+                                        "_dl": Object {},
+                                        "_err": Object {},
+                                        "_ils": Array [
+                                          [Circular],
+                                        ],
+                                        "_prod": Object {},
+                                        "_stopID": Object {},
+                                        "_target": Object {},
+                                      },
+                                      "oil": Object {
+                                        "_c": [Function],
+                                        "_e": [Function],
+                                        "_n": [Function],
+                                      },
+                                      "out": Object {},
+                                      "type": "endWhen",
+                                    },
+                                    "_stopID": Object {},
+                                    "_target": Object {},
+                                  },
+                                  Stream {
+                                    "_d": false,
+                                    "_dl": Object {},
+                                    "_err": Object {},
+                                    "_ils": Array [
+                                      [Circular],
+                                    ],
+                                    "_prod": Object {},
+                                    "_stopID": Object {},
+                                    "_target": Object {},
+                                  },
+                                ],
+                                "out": [Circular],
+                                "type": "merge",
+                              },
+                              "_stopID": Object {},
+                              "_target": Object {},
+                            },
+                            "out": [Circular],
+                            "type": "map",
+                          },
+                          "_stopID": Object {},
+                          "_target": Object {},
+                        },
+                        "out": [Circular],
+                        "seed": Object {
+                          "children": Array [],
+                          "data": Object {
+                            "attrs": Object {},
+                          },
+                          "elm": <div
+                            id="app"
+>
+                            <div>
+                                                        <div>
+                                                                                    test
+                                                        </div>
+                                                        <span>
+                                                                                    test span
+                                                        </span>
+                            </div>
+</div>,
+                          "key": undefined,
+                          "sel": "div#app",
+                          "text": undefined,
+                        },
+                        "type": "fold",
+                      },
+                      "_stopID": Object {},
+                      "_target": Object {},
+                      "_v": Object {
+                        "children": Array [
+                          Object {
+                            "children": Array [
+                              Object {
+                                "children": "test",
+                                "data": Object {
+                                  "component": [Function],
+                                },
+                                "elm": <div>
+                                  test
+</div>,
+                                "key": undefined,
+                                "sel": "div",
+                                "text": "test",
+                              },
+                              Object {
+                                "children": "test span",
+                                "data": Object {
+                                  "component": [Function],
+                                },
+                                "elm": <span>
+                                  test span
+</span>,
+                                "key": undefined,
+                                "sel": "span",
+                                "text": "test span",
+                              },
+                            ],
+                            "data": Object {
+                              "component": [Function],
+                            },
+                            "elm": <div>
+                              <div>
+                                                            test
+                              </div>
+                              <span>
+                                                            test span
+                              </span>
+</div>,
+                            "key": undefined,
+                            "sel": "div",
+                            "text": undefined,
+                          },
+                        ],
+                        "data": Object {},
+                        "elm": <div
+                          id="app"
+>
+                          <div>
+                                                    <div>
+                                                                              test
+                                                    </div>
+                                                    <span>
+                                                                              test span
+                                                    </span>
+                          </div>
+</div>,
+                        "key": undefined,
+                        "sel": "div#app",
+                        "text": undefined,
+                      },
+                    },
+                    "max": 1,
+                    "out": [Circular],
+                    "type": "drop",
+                  },
+                  "_stopID": Object {},
+                  "_target": Object {},
+                },
+                "out": [Circular],
+                "type": "map",
+              },
+              "_stopID": Object {},
+              "_target": Object {},
+            },
+            Stream {
+              "_d": false,
+              "_dl": Object {},
+              "_err": Object {},
+              "_ils": Array [
+                [Circular],
+              ],
+              "_prod": Object {
+                "_start": [Function],
+                "_stop": [Function],
+              },
+              "_stopID": Object {},
+              "_target": Object {},
+            },
+          ],
+          "out": [Circular],
+          "type": "merge",
+        },
+        "_stopID": Object {},
+        "_target": Object {},
+      },
+      "out": [Circular],
+      "type": "startWith",
+      "val": <div
+        id="app"
+>
+        <div>
+                <div>
+                        test
+                </div>
+                <span>
+                        test span
+                </span>
+        </div>
+</div>,
+    },
+    "_stopID": Object {},
+    "_target": Object {},
+    "_v": <div
+      id="app"
+>
+      <div>
+            <div>
+                  test
+            </div>
+            <span>
+                  test span
+            </span>
+      </div>
+</div>,
+  },
+  "_sanitation$": Stream {
+    "_d": false,
+    "_dl": Object {},
+    "_err": Object {},
+    "_ils": Array [
+      Merge {
+        "ac": 1,
+        "insArr": Array [
+          Stream {
+            "_d": false,
+            "_dl": Object {},
+            "_err": Object {},
+            "_ils": Array [],
+            "_prod": EndWhen {
+              "ins": Stream {
+                "_d": false,
+                "_dl": Object {},
+                "_err": Object {},
+                "_ils": Array [],
+                "_prod": MapOp {
+                  "f": [Function],
+                  "ins": Stream {
+                    "_d": false,
+                    "_dl": Object {},
+                    "_err": Object {},
+                    "_ils": Array [],
+                    "_prod": FromArray {
+                      "a": Array [
+                        Object {
+                          "children": Array [
+                            Object {
+                              "children": undefined,
+                              "data": Object {
+                                "component": [Function],
+                              },
+                              "elm": undefined,
+                              "key": undefined,
+                              "sel": "div",
+                              "text": "test",
+                            },
+                            Object {
+                              "children": undefined,
+                              "data": Object {
+                                "component": [Function],
+                              },
+                              "elm": undefined,
+                              "key": undefined,
+                              "sel": "span",
+                              "text": "test span",
+                            },
+                          ],
+                          "data": Object {
+                            "component": [Function],
+                          },
+                          "elm": undefined,
+                          "key": undefined,
+                          "sel": "div",
+                          "text": undefined,
+                        },
+                      ],
+                      "type": "fromArray",
+                    },
+                    "_stopID": Object {},
+                    "_target": Object {},
+                  },
+                  "out": Object {},
+                  "type": "map",
+                },
+                "_stopID": Object {},
+                "_target": Object {},
+              },
+              "o": [Circular],
+              "oil": Object {
+                "_c": [Function],
+                "_e": [Function],
+                "_n": [Function],
+              },
+              "out": Object {},
+              "type": "endWhen",
+            },
+            "_stopID": Object {},
+            "_target": Object {},
+          },
+          [Circular],
+        ],
+        "out": Stream {
+          "_d": false,
+          "_dl": Object {},
+          "_err": Object {},
+          "_ils": Array [
+            MapOp {
+              "f": [Function],
+              "ins": [Circular],
+              "out": Stream {
+                "_d": false,
+                "_dl": Object {},
+                "_err": Object {},
+                "_ils": Array [
+                  Fold {
+                    "acc": Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [
+                            Object {
+                              "children": "test",
+                              "data": Object {
+                                "component": [Function],
+                              },
+                              "elm": <div>
+                                test
+</div>,
+                              "key": undefined,
+                              "sel": "div",
+                              "text": "test",
+                            },
+                            Object {
+                              "children": "test span",
+                              "data": Object {
+                                "component": [Function],
+                              },
+                              "elm": <span>
+                                test span
+</span>,
+                              "key": undefined,
+                              "sel": "span",
+                              "text": "test span",
+                            },
+                          ],
+                          "data": Object {
+                            "component": [Function],
+                          },
+                          "elm": <div>
+                            <div>
+                                                        test
+                            </div>
+                            <span>
+                                                        test span
+                            </span>
+</div>,
+                          "key": undefined,
+                          "sel": "div",
+                          "text": undefined,
+                        },
+                      ],
+                      "data": Object {},
+                      "elm": <div
+                        id="app"
+>
+                        <div>
+                                                <div>
+                                                                        test
+                                                </div>
+                                                <span>
+                                                                        test span
+                                                </span>
+                        </div>
+</div>,
+                      "key": undefined,
+                      "sel": "div#app",
+                      "text": undefined,
+                    },
+                    "f": [Function],
+                    "ins": [Circular],
+                    "out": MemoryStream {
+                      "_d": false,
+                      "_dl": Object {},
+                      "_err": Object {},
+                      "_has": true,
+                      "_ils": Array [
+                        Drop {
+                          "dropped": 2,
+                          "ins": [Circular],
+                          "max": 1,
+                          "out": Stream {
+                            "_d": false,
+                            "_dl": Object {},
+                            "_err": Object {},
+                            "_ils": Array [
+                              MapOp {
+                                "f": [Function],
+                                "ins": [Circular],
+                                "out": Stream {
+                                  "_d": false,
+                                  "_dl": Object {},
+                                  "_err": Object {},
+                                  "_ils": Array [
+                                    Merge {
+                                      "ac": 2,
+                                      "insArr": Array [
+                                        [Circular],
+                                        Stream {
+                                          "_d": false,
+                                          "_dl": Object {},
+                                          "_err": Object {},
+                                          "_ils": Array [
+                                            [Circular],
+                                          ],
+                                          "_prod": Object {
+                                            "_start": [Function],
+                                            "_stop": [Function],
+                                          },
+                                          "_stopID": Object {},
+                                          "_target": Object {},
+                                        },
+                                      ],
+                                      "out": Stream {
+                                        "_d": false,
+                                        "_dl": Object {},
+                                        "_err": Object {},
+                                        "_ils": Array [
+                                          MemoryStream {
+                                            "_d": false,
+                                            "_dl": Object {},
+                                            "_err": Object {},
+                                            "_has": true,
+                                            "_ils": Array [
+                                              Object {
+                                                "_c": [Function],
+                                                "_e": [Function],
+                                                "_n": [Function],
+                                                "error": [Function],
+                                              },
+                                            ],
+                                            "_prod": StartWith {
+                                              "ins": [Circular],
+                                              "out": [Circular],
+                                              "type": "startWith",
+                                              "val": <div
+                                                id="app"
+>
+                                                <div>
+                                                                                                <div>
+                                                                                                                                                test
+                                                                                                </div>
+                                                                                                <span>
+                                                                                                                                                test span
+                                                                                                </span>
+                                                </div>
+</div>,
+                                            },
+                                            "_stopID": Object {},
+                                            "_target": Object {},
+                                            "_v": <div
+                                              id="app"
+>
+                                              <div>
+                                                                                            <div>
+                                                                                                                                          test
+                                                                                            </div>
+                                                                                            <span>
+                                                                                                                                          test span
+                                                                                            </span>
+                                              </div>
+</div>,
+                                          },
+                                        ],
+                                        "_prod": [Circular],
+                                        "_stopID": Object {},
+                                        "_target": Object {},
+                                      },
+                                      "type": "merge",
+                                    },
+                                  ],
+                                  "_prod": [Circular],
+                                  "_stopID": Object {},
+                                  "_target": Object {},
+                                },
+                                "type": "map",
+                              },
+                            ],
+                            "_prod": [Circular],
+                            "_stopID": Object {},
+                            "_target": Object {},
+                          },
+                          "type": "drop",
+                        },
+                      ],
+                      "_prod": [Circular],
+                      "_stopID": Object {},
+                      "_target": Object {},
+                      "_v": Object {
+                        "children": Array [
+                          Object {
+                            "children": Array [
+                              Object {
+                                "children": "test",
+                                "data": Object {
+                                  "component": [Function],
+                                },
+                                "elm": <div>
+                                  test
+</div>,
+                                "key": undefined,
+                                "sel": "div",
+                                "text": "test",
+                              },
+                              Object {
+                                "children": "test span",
+                                "data": Object {
+                                  "component": [Function],
+                                },
+                                "elm": <span>
+                                  test span
+</span>,
+                                "key": undefined,
+                                "sel": "span",
+                                "text": "test span",
+                              },
+                            ],
+                            "data": Object {
+                              "component": [Function],
+                            },
+                            "elm": <div>
+                              <div>
+                                                            test
+                              </div>
+                              <span>
+                                                            test span
+                              </span>
+</div>,
+                            "key": undefined,
+                            "sel": "div",
+                            "text": undefined,
+                          },
+                        ],
+                        "data": Object {},
+                        "elm": <div
+                          id="app"
+>
+                          <div>
+                                                    <div>
+                                                                              test
+                                                    </div>
+                                                    <span>
+                                                                              test span
+                                                    </span>
+                          </div>
+</div>,
+                        "key": undefined,
+                        "sel": "div#app",
+                        "text": undefined,
+                      },
+                    },
+                    "seed": Object {
+                      "children": Array [],
+                      "data": Object {
+                        "attrs": Object {},
+                      },
+                      "elm": <div
+                        id="app"
+>
+                        <div>
+                                                <div>
+                                                                        test
+                                                </div>
+                                                <span>
+                                                                        test span
+                                                </span>
+                        </div>
+</div>,
+                      "key": undefined,
+                      "sel": "div#app",
+                      "text": undefined,
+                    },
+                    "type": "fold",
+                  },
+                ],
+                "_prod": [Circular],
+                "_stopID": Object {},
+                "_target": Object {},
+              },
+              "type": "map",
+            },
+          ],
+          "_prod": [Circular],
+          "_stopID": Object {},
+          "_target": Object {},
+        },
+        "type": "merge",
+      },
+    ],
+    "_prod": Object {},
+    "_stopID": Object {},
+    "_target": Object {},
+  },
+  "isolateSink": [Function],
+  "isolateSource": [Function],
+}
+`;
+
+exports[`makeFelaDomDriver should return a stream of the DOM 3`] = `
+MainDOMSource {
+  "_delegators": Map {},
+  "_isolateModule": IsolateModule {
+    "delegatorsByFullScope": Map {},
+    "elementsByFullScope": Map {},
+    "fullScopesBeingUpdated": Array [],
+  },
+  "_name": "DOM",
+  "_namespace": Array [],
+  "_rootElement$": MemoryStream {
+    "_d": false,
+    "_dl": Object {},
+    "_err": Object {},
+    "_has": true,
+    "_ils": Array [
+      Object {
+        "_c": [Function],
+        "_e": [Function],
+        "_n": [Function],
+        "error": [Function],
+      },
+    ],
+    "_prod": StartWith {
+      "ins": Stream {
+        "_d": false,
+        "_dl": Object {},
+        "_err": Object {},
+        "_ils": Array [
+          [Circular],
+        ],
+        "_prod": Merge {
+          "ac": 2,
+          "insArr": Array [
+            Stream {
+              "_d": false,
+              "_dl": Object {},
+              "_err": Object {},
+              "_ils": Array [
+                [Circular],
+              ],
+              "_prod": MapOp {
+                "f": [Function],
+                "ins": Stream {
+                  "_d": false,
+                  "_dl": Object {},
+                  "_err": Object {},
+                  "_ils": Array [
+                    [Circular],
+                  ],
+                  "_prod": Drop {
+                    "dropped": 2,
+                    "ins": MemoryStream {
+                      "_d": false,
+                      "_dl": Object {},
+                      "_err": Object {},
+                      "_has": true,
+                      "_ils": Array [
+                        [Circular],
+                      ],
+                      "_prod": Fold {
+                        "acc": Object {
+                          "children": Array [
+                            Object {
+                              "children": "test",
+                              "data": Object {},
+                              "elm": <div>
+                                test
+</div>,
+                              "key": undefined,
+                              "sel": "div",
+                              "text": "test",
+                            },
+                          ],
+                          "data": Object {},
+                          "elm": <div
+                            id="app"
+>
+                            <div>
+                                                        test
+                            </div>
+</div>,
+                          "key": undefined,
+                          "sel": "div#app",
+                          "text": undefined,
+                        },
+                        "f": [Function],
+                        "ins": Stream {
+                          "_d": false,
+                          "_dl": Object {},
+                          "_err": Object {},
+                          "_ils": Array [
+                            [Circular],
+                          ],
+                          "_prod": MapOp {
+                            "f": [Function],
+                            "ins": Stream {
+                              "_d": false,
+                              "_dl": Object {},
+                              "_err": Object {},
+                              "_ils": Array [
+                                [Circular],
+                              ],
+                              "_prod": Merge {
+                                "ac": 1,
+                                "insArr": Array [
+                                  Stream {
+                                    "_d": false,
+                                    "_dl": Object {},
+                                    "_err": Object {},
+                                    "_ils": Array [],
+                                    "_prod": EndWhen {
+                                      "ins": Stream {
+                                        "_d": false,
+                                        "_dl": Object {},
+                                        "_err": Object {},
+                                        "_ils": Array [],
+                                        "_prod": MapOp {
+                                          "f": [Function],
+                                          "ins": Stream {
+                                            "_d": false,
+                                            "_dl": Object {},
+                                            "_err": Object {},
+                                            "_ils": Array [],
+                                            "_prod": FromArray {
+                                              "a": Array [
+                                                Object {
+                                                  "children": undefined,
+                                                  "data": Object {},
+                                                  "elm": undefined,
+                                                  "key": undefined,
+                                                  "sel": "div",
+                                                  "text": "test",
+                                                },
+                                              ],
+                                              "type": "fromArray",
+                                            },
+                                            "_stopID": Object {},
+                                            "_target": Object {},
+                                          },
+                                          "out": Object {},
+                                          "type": "map",
+                                        },
+                                        "_stopID": Object {},
+                                        "_target": Object {},
+                                      },
+                                      "o": Stream {
+                                        "_d": false,
+                                        "_dl": Object {},
+                                        "_err": Object {},
+                                        "_ils": Array [
+                                          [Circular],
+                                        ],
+                                        "_prod": Object {},
+                                        "_stopID": Object {},
+                                        "_target": Object {},
+                                      },
+                                      "oil": Object {
+                                        "_c": [Function],
+                                        "_e": [Function],
+                                        "_n": [Function],
+                                      },
+                                      "out": Object {},
+                                      "type": "endWhen",
+                                    },
+                                    "_stopID": Object {},
+                                    "_target": Object {},
+                                  },
+                                  Stream {
+                                    "_d": false,
+                                    "_dl": Object {},
+                                    "_err": Object {},
+                                    "_ils": Array [
+                                      [Circular],
+                                    ],
+                                    "_prod": Object {},
+                                    "_stopID": Object {},
+                                    "_target": Object {},
+                                  },
+                                ],
+                                "out": [Circular],
+                                "type": "merge",
+                              },
+                              "_stopID": Object {},
+                              "_target": Object {},
+                            },
+                            "out": [Circular],
+                            "type": "map",
+                          },
+                          "_stopID": Object {},
+                          "_target": Object {},
+                        },
+                        "out": [Circular],
+                        "seed": Object {
+                          "children": Array [],
+                          "data": Object {
+                            "attrs": Object {},
+                          },
+                          "elm": <div
+                            id="app"
+>
+                            <div>
+                                                        test
+                            </div>
+</div>,
+                          "key": undefined,
+                          "sel": "div#app",
+                          "text": undefined,
+                        },
+                        "type": "fold",
+                      },
+                      "_stopID": Object {},
+                      "_target": Object {},
+                      "_v": Object {
+                        "children": Array [
+                          Object {
+                            "children": "test",
+                            "data": Object {},
+                            "elm": <div>
+                              test
+</div>,
+                            "key": undefined,
+                            "sel": "div",
+                            "text": "test",
+                          },
+                        ],
+                        "data": Object {},
+                        "elm": <div
+                          id="app"
+>
+                          <div>
+                                                    test
+                          </div>
+</div>,
+                        "key": undefined,
+                        "sel": "div#app",
+                        "text": undefined,
+                      },
+                    },
+                    "max": 1,
+                    "out": [Circular],
+                    "type": "drop",
+                  },
+                  "_stopID": Object {},
+                  "_target": Object {},
+                },
+                "out": [Circular],
+                "type": "map",
+              },
+              "_stopID": Object {},
+              "_target": Object {},
+            },
+            Stream {
+              "_d": false,
+              "_dl": Object {},
+              "_err": Object {},
+              "_ils": Array [
+                [Circular],
+              ],
+              "_prod": Object {
+                "_start": [Function],
+                "_stop": [Function],
+              },
+              "_stopID": Object {},
+              "_target": Object {},
+            },
+          ],
+          "out": [Circular],
+          "type": "merge",
+        },
+        "_stopID": Object {},
+        "_target": Object {},
+      },
+      "out": [Circular],
+      "type": "startWith",
+      "val": <div
+        id="app"
+>
+        <div>
+                test
+        </div>
+</div>,
+    },
+    "_stopID": Object {},
+    "_target": Object {},
+    "_v": <div
+      id="app"
+>
+      <div>
+            test
+      </div>
+</div>,
+  },
+  "_sanitation$": Stream {
+    "_d": false,
+    "_dl": Object {},
+    "_err": Object {},
+    "_ils": Array [
+      Merge {
+        "ac": 1,
+        "insArr": Array [
+          Stream {
+            "_d": false,
+            "_dl": Object {},
+            "_err": Object {},
+            "_ils": Array [],
+            "_prod": EndWhen {
+              "ins": Stream {
+                "_d": false,
+                "_dl": Object {},
+                "_err": Object {},
+                "_ils": Array [],
+                "_prod": MapOp {
+                  "f": [Function],
+                  "ins": Stream {
+                    "_d": false,
+                    "_dl": Object {},
+                    "_err": Object {},
+                    "_ils": Array [],
+                    "_prod": FromArray {
+                      "a": Array [
+                        Object {
+                          "children": undefined,
+                          "data": Object {},
+                          "elm": undefined,
+                          "key": undefined,
+                          "sel": "div",
+                          "text": "test",
+                        },
+                      ],
+                      "type": "fromArray",
+                    },
+                    "_stopID": Object {},
+                    "_target": Object {},
+                  },
+                  "out": Object {},
+                  "type": "map",
+                },
+                "_stopID": Object {},
+                "_target": Object {},
+              },
+              "o": [Circular],
+              "oil": Object {
+                "_c": [Function],
+                "_e": [Function],
+                "_n": [Function],
+              },
+              "out": Object {},
+              "type": "endWhen",
+            },
+            "_stopID": Object {},
+            "_target": Object {},
+          },
+          [Circular],
+        ],
+        "out": Stream {
+          "_d": false,
+          "_dl": Object {},
+          "_err": Object {},
+          "_ils": Array [
+            MapOp {
+              "f": [Function],
+              "ins": [Circular],
+              "out": Stream {
+                "_d": false,
+                "_dl": Object {},
+                "_err": Object {},
+                "_ils": Array [
+                  Fold {
+                    "acc": Object {
+                      "children": Array [
+                        Object {
+                          "children": "test",
+                          "data": Object {},
+                          "elm": <div>
+                            test
+</div>,
+                          "key": undefined,
+                          "sel": "div",
+                          "text": "test",
+                        },
+                      ],
+                      "data": Object {},
+                      "elm": <div
+                        id="app"
+>
+                        <div>
+                                                test
+                        </div>
+</div>,
+                      "key": undefined,
+                      "sel": "div#app",
+                      "text": undefined,
+                    },
+                    "f": [Function],
+                    "ins": [Circular],
+                    "out": MemoryStream {
+                      "_d": false,
+                      "_dl": Object {},
+                      "_err": Object {},
+                      "_has": true,
+                      "_ils": Array [
+                        Drop {
+                          "dropped": 2,
+                          "ins": [Circular],
+                          "max": 1,
+                          "out": Stream {
+                            "_d": false,
+                            "_dl": Object {},
+                            "_err": Object {},
+                            "_ils": Array [
+                              MapOp {
+                                "f": [Function],
+                                "ins": [Circular],
+                                "out": Stream {
+                                  "_d": false,
+                                  "_dl": Object {},
+                                  "_err": Object {},
+                                  "_ils": Array [
+                                    Merge {
+                                      "ac": 2,
+                                      "insArr": Array [
+                                        [Circular],
+                                        Stream {
+                                          "_d": false,
+                                          "_dl": Object {},
+                                          "_err": Object {},
+                                          "_ils": Array [
+                                            [Circular],
+                                          ],
+                                          "_prod": Object {
+                                            "_start": [Function],
+                                            "_stop": [Function],
+                                          },
+                                          "_stopID": Object {},
+                                          "_target": Object {},
+                                        },
+                                      ],
+                                      "out": Stream {
+                                        "_d": false,
+                                        "_dl": Object {},
+                                        "_err": Object {},
+                                        "_ils": Array [
+                                          MemoryStream {
+                                            "_d": false,
+                                            "_dl": Object {},
+                                            "_err": Object {},
+                                            "_has": true,
+                                            "_ils": Array [
+                                              Object {
+                                                "_c": [Function],
+                                                "_e": [Function],
+                                                "_n": [Function],
+                                                "error": [Function],
+                                              },
+                                            ],
+                                            "_prod": StartWith {
+                                              "ins": [Circular],
+                                              "out": [Circular],
+                                              "type": "startWith",
+                                              "val": <div
+                                                id="app"
+>
+                                                <div>
+                                                                                                test
+                                                </div>
+</div>,
+                                            },
+                                            "_stopID": Object {},
+                                            "_target": Object {},
+                                            "_v": <div
+                                              id="app"
+>
+                                              <div>
+                                                                                            test
+                                              </div>
+</div>,
+                                          },
+                                        ],
+                                        "_prod": [Circular],
+                                        "_stopID": Object {},
+                                        "_target": Object {},
+                                      },
+                                      "type": "merge",
+                                    },
+                                  ],
+                                  "_prod": [Circular],
+                                  "_stopID": Object {},
+                                  "_target": Object {},
+                                },
+                                "type": "map",
+                              },
+                            ],
+                            "_prod": [Circular],
+                            "_stopID": Object {},
+                            "_target": Object {},
+                          },
+                          "type": "drop",
+                        },
+                      ],
+                      "_prod": [Circular],
+                      "_stopID": Object {},
+                      "_target": Object {},
+                      "_v": Object {
+                        "children": Array [
+                          Object {
+                            "children": "test",
+                            "data": Object {},
+                            "elm": <div>
+                              test
+</div>,
+                            "key": undefined,
+                            "sel": "div",
+                            "text": "test",
+                          },
+                        ],
+                        "data": Object {},
+                        "elm": <div
+                          id="app"
+>
+                          <div>
+                                                    test
+                          </div>
+</div>,
+                        "key": undefined,
+                        "sel": "div#app",
+                        "text": undefined,
+                      },
+                    },
+                    "seed": Object {
+                      "children": Array [],
+                      "data": Object {
+                        "attrs": Object {},
+                      },
+                      "elm": <div
+                        id="app"
+>
+                        <div>
+                                                test
+                        </div>
+</div>,
+                      "key": undefined,
+                      "sel": "div#app",
+                      "text": undefined,
+                    },
+                    "type": "fold",
+                  },
+                ],
+                "_prod": [Circular],
+                "_stopID": Object {},
+                "_target": Object {},
+              },
+              "type": "map",
+            },
+          ],
+          "_prod": [Circular],
+          "_stopID": Object {},
+          "_target": Object {},
+        },
+        "type": "merge",
+      },
+    ],
+    "_prod": Object {},
+    "_stopID": Object {},
+    "_target": Object {},
+  },
+  "isolateSink": [Function],
+  "isolateSource": [Function],
+}
+`;
+
+exports[`makeFelaDomDriver should return a stream of the DOM with style 1`] = `
+MainDOMSource {
+  "_delegators": Map {},
+  "_isolateModule": IsolateModule {
+    "delegatorsByFullScope": Map {},
+    "elementsByFullScope": Map {},
+    "fullScopesBeingUpdated": Array [],
+  },
+  "_name": "DOM",
+  "_namespace": Array [],
+  "_rootElement$": MemoryStream {
+    "_d": false,
+    "_dl": Object {},
+    "_err": Object {},
+    "_has": true,
+    "_ils": Array [
+      Object {
+        "_c": [Function],
+        "_e": [Function],
+        "_n": [Function],
+        "error": [Function],
+      },
+    ],
+    "_prod": StartWith {
+      "ins": Stream {
+        "_d": false,
+        "_dl": Object {},
+        "_err": Object {},
+        "_ils": Array [
+          [Circular],
+        ],
+        "_prod": Merge {
+          "ac": 2,
+          "insArr": Array [
+            Stream {
+              "_d": false,
+              "_dl": Object {},
+              "_err": Object {},
+              "_ils": Array [
+                [Circular],
+              ],
+              "_prod": MapOp {
+                "f": [Function],
+                "ins": Stream {
+                  "_d": false,
+                  "_dl": Object {},
+                  "_err": Object {},
+                  "_ils": Array [
+                    [Circular],
+                  ],
+                  "_prod": Drop {
+                    "dropped": 2,
+                    "ins": MemoryStream {
+                      "_d": false,
+                      "_dl": Object {},
+                      "_err": Object {},
+                      "_has": true,
+                      "_ils": Array [
+                        [Circular],
+                      ],
+                      "_prod": Fold {
+                        "acc": Object {
+                          "children": Array [
+                            Object {
+                              "children": Array [
+                                Object {
+                                  "children": "test",
+                                  "data": Object {
+                                    "component": [Function],
+                                    "props": Object {
+                                      "className": "a",
+                                    },
+                                  },
+                                  "elm": <div
+                                    class="a"
+>
+                                    test
+</div>,
+                                  "key": undefined,
+                                  "sel": "div",
+                                  "text": "test",
+                                },
+                                Object {
+                                  "children": "test span",
+                                  "data": Object {
+                                    "component": [Function],
+                                  },
+                                  "elm": <span>
+                                    test span
+</span>,
+                                  "key": undefined,
+                                  "sel": "span",
+                                  "text": "test span",
+                                },
+                              ],
+                              "data": Object {
+                                "component": [Function],
+                              },
+                              "elm": <div>
+                                <div
+                                                                class="a"
+                                >
+                                                                test
+                                </div>
+                                <span>
+                                                                test span
+                                </span>
+</div>,
+                              "key": undefined,
+                              "sel": "div",
+                              "text": undefined,
+                            },
+                          ],
+                          "data": Object {},
+                          "elm": <div
+                            id="app"
+>
+                            <div>
+                                                        <div
+                                                                                    class="a"
+                                                        >
+                                                                                    test
+                                                        </div>
+                                                        <span>
+                                                                                    test span
+                                                        </span>
+                            </div>
+</div>,
+                          "key": undefined,
+                          "sel": "div#app",
+                          "text": undefined,
+                        },
+                        "f": [Function],
+                        "ins": Stream {
+                          "_d": false,
+                          "_dl": Object {},
+                          "_err": Object {},
+                          "_ils": Array [
+                            [Circular],
+                          ],
+                          "_prod": MapOp {
+                            "f": [Function],
+                            "ins": Stream {
+                              "_d": false,
+                              "_dl": Object {},
+                              "_err": Object {},
+                              "_ils": Array [
+                                [Circular],
+                              ],
+                              "_prod": Merge {
+                                "ac": 1,
+                                "insArr": Array [
+                                  Stream {
+                                    "_d": false,
+                                    "_dl": Object {},
+                                    "_err": Object {},
+                                    "_ils": Array [],
+                                    "_prod": EndWhen {
+                                      "ins": Stream {
+                                        "_d": false,
+                                        "_dl": Object {},
+                                        "_err": Object {},
+                                        "_ils": Array [],
+                                        "_prod": MapOp {
+                                          "f": [Function],
+                                          "ins": Stream {
+                                            "_d": false,
+                                            "_dl": Object {},
+                                            "_err": Object {},
+                                            "_ils": Array [],
+                                            "_prod": FromArray {
+                                              "a": Array [
+                                                Object {
+                                                  "children": Array [
+                                                    Object {
+                                                      "children": undefined,
+                                                      "data": Object {
+                                                        "component": [Function],
+                                                      },
+                                                      "elm": undefined,
+                                                      "key": undefined,
+                                                      "sel": "div",
+                                                      "text": "test",
+                                                    },
+                                                    Object {
+                                                      "children": undefined,
+                                                      "data": Object {
+                                                        "component": [Function],
+                                                      },
+                                                      "elm": undefined,
+                                                      "key": undefined,
+                                                      "sel": "span",
+                                                      "text": "test span",
+                                                    },
+                                                  ],
+                                                  "data": Object {
+                                                    "component": [Function],
+                                                  },
+                                                  "elm": undefined,
+                                                  "key": undefined,
+                                                  "sel": "div",
+                                                  "text": undefined,
+                                                },
+                                              ],
+                                              "type": "fromArray",
+                                            },
+                                            "_stopID": Object {},
+                                            "_target": Object {},
+                                          },
+                                          "out": Object {},
+                                          "type": "map",
+                                        },
+                                        "_stopID": Object {},
+                                        "_target": Object {},
+                                      },
+                                      "o": Stream {
+                                        "_d": false,
+                                        "_dl": Object {},
+                                        "_err": Object {},
+                                        "_ils": Array [
+                                          [Circular],
+                                        ],
+                                        "_prod": Object {},
+                                        "_stopID": Object {},
+                                        "_target": Object {},
+                                      },
+                                      "oil": Object {
+                                        "_c": [Function],
+                                        "_e": [Function],
+                                        "_n": [Function],
+                                      },
+                                      "out": Object {},
+                                      "type": "endWhen",
+                                    },
+                                    "_stopID": Object {},
+                                    "_target": Object {},
+                                  },
+                                  Stream {
+                                    "_d": false,
+                                    "_dl": Object {},
+                                    "_err": Object {},
+                                    "_ils": Array [
+                                      [Circular],
+                                    ],
+                                    "_prod": Object {},
+                                    "_stopID": Object {},
+                                    "_target": Object {},
+                                  },
+                                ],
+                                "out": [Circular],
+                                "type": "merge",
+                              },
+                              "_stopID": Object {},
+                              "_target": Object {},
+                            },
+                            "out": [Circular],
+                            "type": "map",
+                          },
+                          "_stopID": Object {},
+                          "_target": Object {},
+                        },
+                        "out": [Circular],
+                        "seed": Object {
+                          "children": Array [],
+                          "data": Object {
+                            "attrs": Object {},
+                          },
+                          "elm": <div
+                            id="app"
+>
+                            <div>
+                                                        <div
+                                                                                    class="a"
+                                                        >
+                                                                                    test
+                                                        </div>
+                                                        <span>
+                                                                                    test span
+                                                        </span>
+                            </div>
+</div>,
+                          "key": undefined,
+                          "sel": "div#app",
+                          "text": undefined,
+                        },
+                        "type": "fold",
+                      },
+                      "_stopID": Object {},
+                      "_target": Object {},
+                      "_v": Object {
+                        "children": Array [
+                          Object {
+                            "children": Array [
+                              Object {
+                                "children": "test",
+                                "data": Object {
+                                  "component": [Function],
+                                  "props": Object {
+                                    "className": "a",
+                                  },
+                                },
+                                "elm": <div
+                                  class="a"
+>
+                                  test
+</div>,
+                                "key": undefined,
+                                "sel": "div",
+                                "text": "test",
+                              },
+                              Object {
+                                "children": "test span",
+                                "data": Object {
+                                  "component": [Function],
+                                },
+                                "elm": <span>
+                                  test span
+</span>,
+                                "key": undefined,
+                                "sel": "span",
+                                "text": "test span",
+                              },
+                            ],
+                            "data": Object {
+                              "component": [Function],
+                            },
+                            "elm": <div>
+                              <div
+                                                            class="a"
+                              >
+                                                            test
+                              </div>
+                              <span>
+                                                            test span
+                              </span>
+</div>,
+                            "key": undefined,
+                            "sel": "div",
+                            "text": undefined,
+                          },
+                        ],
+                        "data": Object {},
+                        "elm": <div
+                          id="app"
+>
+                          <div>
+                                                    <div
+                                                                              class="a"
+                                                    >
+                                                                              test
+                                                    </div>
+                                                    <span>
+                                                                              test span
+                                                    </span>
+                          </div>
+</div>,
+                        "key": undefined,
+                        "sel": "div#app",
+                        "text": undefined,
+                      },
+                    },
+                    "max": 1,
+                    "out": [Circular],
+                    "type": "drop",
+                  },
+                  "_stopID": Object {},
+                  "_target": Object {},
+                },
+                "out": [Circular],
+                "type": "map",
+              },
+              "_stopID": Object {},
+              "_target": Object {},
+            },
+            Stream {
+              "_d": false,
+              "_dl": Object {},
+              "_err": Object {},
+              "_ils": Array [
+                [Circular],
+              ],
+              "_prod": Object {
+                "_start": [Function],
+                "_stop": [Function],
+              },
+              "_stopID": Object {},
+              "_target": Object {},
+            },
+          ],
+          "out": [Circular],
+          "type": "merge",
+        },
+        "_stopID": Object {},
+        "_target": Object {},
+      },
+      "out": [Circular],
+      "type": "startWith",
+      "val": <div
+        id="app"
+>
+        <div>
+                <div
+                        class="a"
+                >
+                        test
+                </div>
+                <span>
+                        test span
+                </span>
+        </div>
+</div>,
+    },
+    "_stopID": Object {},
+    "_target": Object {},
+    "_v": <div
+      id="app"
+>
+      <div>
+            <div
+                  class="a"
+            >
+                  test
+            </div>
+            <span>
+                  test span
+            </span>
+      </div>
+</div>,
+  },
+  "_sanitation$": Stream {
+    "_d": false,
+    "_dl": Object {},
+    "_err": Object {},
+    "_ils": Array [
+      Merge {
+        "ac": 1,
+        "insArr": Array [
+          Stream {
+            "_d": false,
+            "_dl": Object {},
+            "_err": Object {},
+            "_ils": Array [],
+            "_prod": EndWhen {
+              "ins": Stream {
+                "_d": false,
+                "_dl": Object {},
+                "_err": Object {},
+                "_ils": Array [],
+                "_prod": MapOp {
+                  "f": [Function],
+                  "ins": Stream {
+                    "_d": false,
+                    "_dl": Object {},
+                    "_err": Object {},
+                    "_ils": Array [],
+                    "_prod": FromArray {
+                      "a": Array [
+                        Object {
+                          "children": Array [
+                            Object {
+                              "children": undefined,
+                              "data": Object {
+                                "component": [Function],
+                              },
+                              "elm": undefined,
+                              "key": undefined,
+                              "sel": "div",
+                              "text": "test",
+                            },
+                            Object {
+                              "children": undefined,
+                              "data": Object {
+                                "component": [Function],
+                              },
+                              "elm": undefined,
+                              "key": undefined,
+                              "sel": "span",
+                              "text": "test span",
+                            },
+                          ],
+                          "data": Object {
+                            "component": [Function],
+                          },
+                          "elm": undefined,
+                          "key": undefined,
+                          "sel": "div",
+                          "text": undefined,
+                        },
+                      ],
+                      "type": "fromArray",
+                    },
+                    "_stopID": Object {},
+                    "_target": Object {},
+                  },
+                  "out": Object {},
+                  "type": "map",
+                },
+                "_stopID": Object {},
+                "_target": Object {},
+              },
+              "o": [Circular],
+              "oil": Object {
+                "_c": [Function],
+                "_e": [Function],
+                "_n": [Function],
+              },
+              "out": Object {},
+              "type": "endWhen",
+            },
+            "_stopID": Object {},
+            "_target": Object {},
+          },
+          [Circular],
+        ],
+        "out": Stream {
+          "_d": false,
+          "_dl": Object {},
+          "_err": Object {},
+          "_ils": Array [
+            MapOp {
+              "f": [Function],
+              "ins": [Circular],
+              "out": Stream {
+                "_d": false,
+                "_dl": Object {},
+                "_err": Object {},
+                "_ils": Array [
+                  Fold {
+                    "acc": Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [
+                            Object {
+                              "children": "test",
+                              "data": Object {
+                                "component": [Function],
+                                "props": Object {
+                                  "className": "a",
+                                },
+                              },
+                              "elm": <div
+                                class="a"
+>
+                                test
+</div>,
+                              "key": undefined,
+                              "sel": "div",
+                              "text": "test",
+                            },
+                            Object {
+                              "children": "test span",
+                              "data": Object {
+                                "component": [Function],
+                              },
+                              "elm": <span>
+                                test span
+</span>,
+                              "key": undefined,
+                              "sel": "span",
+                              "text": "test span",
+                            },
+                          ],
+                          "data": Object {
+                            "component": [Function],
+                          },
+                          "elm": <div>
+                            <div
+                                                        class="a"
+                            >
+                                                        test
+                            </div>
+                            <span>
+                                                        test span
+                            </span>
+</div>,
+                          "key": undefined,
+                          "sel": "div",
+                          "text": undefined,
+                        },
+                      ],
+                      "data": Object {},
+                      "elm": <div
+                        id="app"
+>
+                        <div>
+                                                <div
+                                                                        class="a"
+                                                >
+                                                                        test
+                                                </div>
+                                                <span>
+                                                                        test span
+                                                </span>
+                        </div>
+</div>,
+                      "key": undefined,
+                      "sel": "div#app",
+                      "text": undefined,
+                    },
+                    "f": [Function],
+                    "ins": [Circular],
+                    "out": MemoryStream {
+                      "_d": false,
+                      "_dl": Object {},
+                      "_err": Object {},
+                      "_has": true,
+                      "_ils": Array [
+                        Drop {
+                          "dropped": 2,
+                          "ins": [Circular],
+                          "max": 1,
+                          "out": Stream {
+                            "_d": false,
+                            "_dl": Object {},
+                            "_err": Object {},
+                            "_ils": Array [
+                              MapOp {
+                                "f": [Function],
+                                "ins": [Circular],
+                                "out": Stream {
+                                  "_d": false,
+                                  "_dl": Object {},
+                                  "_err": Object {},
+                                  "_ils": Array [
+                                    Merge {
+                                      "ac": 2,
+                                      "insArr": Array [
+                                        [Circular],
+                                        Stream {
+                                          "_d": false,
+                                          "_dl": Object {},
+                                          "_err": Object {},
+                                          "_ils": Array [
+                                            [Circular],
+                                          ],
+                                          "_prod": Object {
+                                            "_start": [Function],
+                                            "_stop": [Function],
+                                          },
+                                          "_stopID": Object {},
+                                          "_target": Object {},
+                                        },
+                                      ],
+                                      "out": Stream {
+                                        "_d": false,
+                                        "_dl": Object {},
+                                        "_err": Object {},
+                                        "_ils": Array [
+                                          MemoryStream {
+                                            "_d": false,
+                                            "_dl": Object {},
+                                            "_err": Object {},
+                                            "_has": true,
+                                            "_ils": Array [
+                                              Object {
+                                                "_c": [Function],
+                                                "_e": [Function],
+                                                "_n": [Function],
+                                                "error": [Function],
+                                              },
+                                            ],
+                                            "_prod": StartWith {
+                                              "ins": [Circular],
+                                              "out": [Circular],
+                                              "type": "startWith",
+                                              "val": <div
+                                                id="app"
+>
+                                                <div>
+                                                                                                <div
+                                                                                                                                                class="a"
+                                                                                                >
+                                                                                                                                                test
+                                                                                                </div>
+                                                                                                <span>
+                                                                                                                                                test span
+                                                                                                </span>
+                                                </div>
+</div>,
+                                            },
+                                            "_stopID": Object {},
+                                            "_target": Object {},
+                                            "_v": <div
+                                              id="app"
+>
+                                              <div>
+                                                                                            <div
+                                                                                                                                          class="a"
+                                                                                            >
+                                                                                                                                          test
+                                                                                            </div>
+                                                                                            <span>
+                                                                                                                                          test span
+                                                                                            </span>
+                                              </div>
+</div>,
+                                          },
+                                        ],
+                                        "_prod": [Circular],
+                                        "_stopID": Object {},
+                                        "_target": Object {},
+                                      },
+                                      "type": "merge",
+                                    },
+                                  ],
+                                  "_prod": [Circular],
+                                  "_stopID": Object {},
+                                  "_target": Object {},
+                                },
+                                "type": "map",
+                              },
+                            ],
+                            "_prod": [Circular],
+                            "_stopID": Object {},
+                            "_target": Object {},
+                          },
+                          "type": "drop",
+                        },
+                      ],
+                      "_prod": [Circular],
+                      "_stopID": Object {},
+                      "_target": Object {},
+                      "_v": Object {
+                        "children": Array [
+                          Object {
+                            "children": Array [
+                              Object {
+                                "children": "test",
+                                "data": Object {
+                                  "component": [Function],
+                                  "props": Object {
+                                    "className": "a",
+                                  },
+                                },
+                                "elm": <div
+                                  class="a"
+>
+                                  test
+</div>,
+                                "key": undefined,
+                                "sel": "div",
+                                "text": "test",
+                              },
+                              Object {
+                                "children": "test span",
+                                "data": Object {
+                                  "component": [Function],
+                                },
+                                "elm": <span>
+                                  test span
+</span>,
+                                "key": undefined,
+                                "sel": "span",
+                                "text": "test span",
+                              },
+                            ],
+                            "data": Object {
+                              "component": [Function],
+                            },
+                            "elm": <div>
+                              <div
+                                                            class="a"
+                              >
+                                                            test
+                              </div>
+                              <span>
+                                                            test span
+                              </span>
+</div>,
+                            "key": undefined,
+                            "sel": "div",
+                            "text": undefined,
+                          },
+                        ],
+                        "data": Object {},
+                        "elm": <div
+                          id="app"
+>
+                          <div>
+                                                    <div
+                                                                              class="a"
+                                                    >
+                                                                              test
+                                                    </div>
+                                                    <span>
+                                                                              test span
+                                                    </span>
+                          </div>
+</div>,
+                        "key": undefined,
+                        "sel": "div#app",
+                        "text": undefined,
+                      },
+                    },
+                    "seed": Object {
+                      "children": Array [],
+                      "data": Object {
+                        "attrs": Object {},
+                      },
+                      "elm": <div
+                        id="app"
+>
+                        <div>
+                                                <div
+                                                                        class="a"
+                                                >
+                                                                        test
+                                                </div>
+                                                <span>
+                                                                        test span
+                                                </span>
+                        </div>
+</div>,
+                      "key": undefined,
+                      "sel": "div#app",
+                      "text": undefined,
+                    },
+                    "type": "fold",
+                  },
+                ],
+                "_prod": [Circular],
+                "_stopID": Object {},
+                "_target": Object {},
+              },
+              "type": "map",
+            },
+          ],
+          "_prod": [Circular],
+          "_stopID": Object {},
+          "_target": Object {},
+        },
+        "type": "merge",
+      },
+    ],
+    "_prod": Object {},
+    "_stopID": Object {},
+    "_target": Object {},
+  },
+  "isolateSink": [Function],
+  "isolateSource": [Function],
+}
+`;
