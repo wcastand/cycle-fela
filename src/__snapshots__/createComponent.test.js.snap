@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`createComponent second call should return an object 1`] = `
+Object {
+  "children": undefined,
+  "data": Object {
+    "component": [Function],
+  },
+  "elm": undefined,
+  "key": undefined,
+  "sel": "div",
+  "text": "test",
+}
+`;
