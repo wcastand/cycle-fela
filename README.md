@@ -21,4 +21,4 @@ yarn add cycle-fela
 
 ## License
 
-Copyright © 2016 Maximilian Stoiber. Licensed under the MIT License, see [LICENSE.md](LICENSE.md) for more information!
+Copyright © 2017 Castandet William. Licensed under the MIT License, see [LICENSE.md](LICENSE.md) for more information!
