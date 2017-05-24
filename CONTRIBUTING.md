@@ -1,7 +1,7 @@
 ## Setup
 
 ```bash
-npm install
+yarn
 ```
 
 ## Development
@@ -9,19 +9,11 @@ npm install
 To run the test suite use
 
 ```bash
-npm test
+yarn test
 ```
 
 To update the snapshots use
 
 ```bash
-npm test -- -u
+yarn test -- -u
 ```
-
-To rebuild the library and docs on every change run
-
-```bash
-npm run build:watch
-```
-
-The docs are available under `./docs/index.html`
