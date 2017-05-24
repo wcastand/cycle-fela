@@ -58,7 +58,8 @@
   "dependencies": {
     "@cycle/dom": "^17.3.0",
     "fela": "^4.3.5",
-    "fela-dom": "^4.3.5"
+    "fela-dom": "^4.3.5",
+    "snabbdom": "^0.6.9"
   },
   "watch": {
     "build:lib": "src/**/*.js"
