@@ -19,7 +19,7 @@
     "url": "git+https://github.com/wcastand/cycle-fela.git"
   },
   "scripts": {
-    "build": "npm run build:lib && npm run build:dist",
+    "build": "yarn run build:lib && yarn run build:dist",
     "prebuild:lib": "rm -rf lib/*",
     "build:lib": "babel --out-dir lib src --ignore test.js",
     "prebuild:umd": "rm -rf dist/*",
@@ -29,7 +29,8 @@
     "test": "jest src",
     "test:watch": "jest src --watch",
     "format": "prettier --no-semi --single-quote --trailing-comma all --tab-width 2 --bracket-spacing true --print-width 100 --write 'src/**/*.js'",
-    "prepublish": "npm run build"
+    "prepublish": "yarn run build",
+    "link": "yarn run build && yarn link"
   },
   "devDependencies": {
     "@cycle/run": "^3.1.0",
