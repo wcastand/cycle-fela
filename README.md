@@ -1,6 +1,8 @@
 <h1><a href="https://github.com/wcastand/cycle-fela">Cycle-fela</a></h1>
 <br />
 
+# STILL IN DEVELOPMENT, NOT ON NPM YET (SOON)
+
 Unofficial Cycle bindings for Fela.
 
 [![Build Status](https://travis-ci.org/wcastand/cycle-fela.svg?branch=master)](https://travis-ci.org/wcastand/cycle-fela) [![codecov](https://codecov.io/gh/wcastand/cycle-fela/branch/master/graph/badge.svg)](https://codecov.io/gh/wcastand/cycle-fela)
