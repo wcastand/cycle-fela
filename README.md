@@ -13,7 +13,47 @@ yarn add cycle-fela
 
 ## Usage
 
-### TODO SOON
+Behind the scene, this driver use `@cycle/dom` to handle the DOM. [docs](https://cycle.js.org/api/dom.html).
+But he does more than that (obviously :P). He creates a rendered for fela and handle a property in the props of your dom element.
+The driver looks for the `component` prop and use it to create the fela style.
+
+```javascript
+
+import xs from 'xstream'
+import { run } from '@cycle/run'
+import { createRenderer } from 'fela'
+import { span, hr } from '@cycle/dom'
+import { makeFelaDomDriver, createComponent } from 'cycle-fela'
+
+const styleNode = document.createElement('style')
+document.head.appendChild(styleNode)
+
+const root = document.createElement('div')
+document.body.appendChild(root)
+
+const RedLabel = createComponent(() => ({ color: 'red' }), 'label')
+const Container = createComponent(({ mobile = true }) => ({
+  display: 'flex',
+  flex: mobile ? '1' : '2',
+}))
+
+function main(sources) {
+  const vdom$ = xs.of(
+    Container({ mobile: false }, [RedLabel('test'), span('Name:'), hr(), span(`Hello`)]),
+  )
+  return {
+    DOM: vdom$
+  }
+}
+
+run(main, {
+  DOM: makeFelaDomDriver(
+    root,
+    { customStyleNode: styleNode }
+  )
+})
+
+```
 
 ## Docs
 
