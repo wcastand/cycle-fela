@@ -57,6 +57,11 @@ run(main, {
 
 ```
 
+## Example
+
+Created with [create-cycle-app](https://github.com/cyclejs-community/create-cycle-app) and then add cycle-fela
+- [Simple cycle app](https://github.com/wcastand/cycle-fela-example)
+
 ## Docs
 
 ### makeFelaDomDriver
