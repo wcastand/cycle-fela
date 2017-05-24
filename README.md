@@ -19,6 +19,8 @@ yarn add cycle-fela
 
 ### makeFelaDomDriver
 
+Create the driver for fela and DOM. Replace the `makeDomDriver` from `@cycle/dom`.
+
 ```javascript
    makeFelaDomDriver('#app')
 
@@ -37,7 +39,6 @@ yarn add cycle-fela
    run(main, { DOM: makeFelaDomDriver('#app') })
 ```
 
-Create the driver for fela and DOM. Replace the `makeDomDriver` from `@cycle/dom`.
 It takes 3 parameters :
 - selector : domNode || string -- (same as makeDomDriver)
 - options : ?Object -- default: { renderedOpts = {}, customStyleNode }
@@ -52,6 +53,8 @@ It takes 3 parameters :
 Allow to pass staticRules to fela renderer, each element of the array should be compatible with fela's [renderStatic](http://fela.js.org/docs/api/fela/Renderer.html#renderstaticstyle-reference) function parameters.
 
 ### createComponent
+
+Create a fela component with pre defined style and selector.
 
 ```javascript
 
@@ -75,6 +78,35 @@ document.body.appendChild(el)
 
 run(main, { DOM: makeFelaDomDriver('#app') })
 ```
+
+#### The first call takes 2 parameters and return a new function:
+- style: (props:Object) => Object
+- selector: ?string -- default: 'div'
+
+##### style 
+
+Takes the rules for the fela component. [docs](http://fela.js.org/docs/basics/Rules.html)
+
+##### selector
+
+Takes a tag or a tag/selector like [h()](https://github.com/snabbdom/snabbdom#snabbdomh) from snabbdom
+
+
+#### The second call takes 2 parameters too and return a DOMNode:
+- props: ?Object -- default: {}
+- children: string | DOMNode | Array<DOMNode>
+
+if the function is called with only one parameter which is not an object, then it consider the parameter to be the children.
+
+##### props
+
+props passed to the component.
+Like this props of [h()](https://github.com/snabbdom/snabbdom#snabbdomh) from snabbdom
+
+##### children
+
+Children of the component. He can be a string, a DOMNode or an array of DOMNode.
+Like this children of [h()](https://github.com/snabbdom/snabbdom#snabbdomh) from snabbdom
 
 
 ## License
