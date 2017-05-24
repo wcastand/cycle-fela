@@ -1,17 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Cycle app should have a dom and a style 1`] = `
-<style
-  data-fela-stylesheet=""
-/>
-`;
-
-exports[`Cycle app should have a dom and a style 2`] = `
-<div
-  id="app-test"
-/>
-`;
-
 exports[`createClassNames should return an object with component props 1`] = `"a"`;
 
 exports[`makeFelaDomDriver should return a stream of the DOM 1`] = `
@@ -79,9 +67,7 @@ MainDOMSource {
                           "children": Array [
                             Object {
                               "children": "test",
-                              "data": Object {
-                                "component": [Function],
-                              },
+                              "data": Object {},
                               "elm": <div>
                                 test
 </div>,
@@ -144,9 +130,7 @@ MainDOMSource {
                                               "a": Array [
                                                 Object {
                                                   "children": undefined,
-                                                  "data": Object {
-                                                    "component": [Function],
-                                                  },
+                                                  "data": Object {},
                                                   "elm": undefined,
                                                   "key": undefined,
                                                   "sel": "div",
@@ -235,9 +219,7 @@ MainDOMSource {
                         "children": Array [
                           Object {
                             "children": "test",
-                            "data": Object {
-                              "component": [Function],
-                            },
+                            "data": Object {},
                             "elm": <div>
                               test
 </div>,
@@ -343,9 +325,7 @@ MainDOMSource {
                       "a": Array [
                         Object {
                           "children": undefined,
-                          "data": Object {
-                            "component": [Function],
-                          },
+                          "data": Object {},
                           "elm": undefined,
                           "key": undefined,
                           "sel": "div",
@@ -395,9 +375,7 @@ MainDOMSource {
                       "children": Array [
                         Object {
                           "children": "test",
-                          "data": Object {
-                            "component": [Function],
-                          },
+                          "data": Object {},
                           "elm": <div>
                             test
 </div>,
@@ -531,9 +509,7 @@ MainDOMSource {
                         "children": Array [
                           Object {
                             "children": "test",
-                            "data": Object {
-                              "component": [Function],
-                            },
+                            "data": Object {},
                             "elm": <div>
                               test
 </div>,
@@ -664,9 +640,7 @@ MainDOMSource {
                               "children": Array [
                                 Object {
                                   "children": "test",
-                                  "data": Object {
-                                    "component": [Function],
-                                  },
+                                  "data": Object {},
                                   "elm": <div>
                                     test
 </div>,
@@ -676,9 +650,7 @@ MainDOMSource {
                                 },
                                 Object {
                                   "children": "test span",
-                                  "data": Object {
-                                    "component": [Function],
-                                  },
+                                  "data": Object {},
                                   "elm": <span>
                                     test span
 </span>,
@@ -687,9 +659,7 @@ MainDOMSource {
                                   "text": "test span",
                                 },
                               ],
-                              "data": Object {
-                                "component": [Function],
-                              },
+                              "data": Object {},
                               "elm": <div>
                                 <div>
                                                                 test
@@ -764,9 +734,7 @@ MainDOMSource {
                                                   "children": Array [
                                                     Object {
                                                       "children": undefined,
-                                                      "data": Object {
-                                                        "component": [Function],
-                                                      },
+                                                      "data": Object {},
                                                       "elm": undefined,
                                                       "key": undefined,
                                                       "sel": "div",
@@ -774,18 +742,14 @@ MainDOMSource {
                                                     },
                                                     Object {
                                                       "children": undefined,
-                                                      "data": Object {
-                                                        "component": [Function],
-                                                      },
+                                                      "data": Object {},
                                                       "elm": undefined,
                                                       "key": undefined,
                                                       "sel": "span",
                                                       "text": "test span",
                                                     },
                                                   ],
-                                                  "data": Object {
-                                                    "component": [Function],
-                                                  },
+                                                  "data": Object {},
                                                   "elm": undefined,
                                                   "key": undefined,
                                                   "sel": "div",
@@ -881,9 +845,7 @@ MainDOMSource {
                             "children": Array [
                               Object {
                                 "children": "test",
-                                "data": Object {
-                                  "component": [Function],
-                                },
+                                "data": Object {},
                                 "elm": <div>
                                   test
 </div>,
@@ -893,9 +855,7 @@ MainDOMSource {
                               },
                               Object {
                                 "children": "test span",
-                                "data": Object {
-                                  "component": [Function],
-                                },
+                                "data": Object {},
                                 "elm": <span>
                                   test span
 </span>,
@@ -904,9 +864,7 @@ MainDOMSource {
                                 "text": "test span",
                               },
                             ],
-                            "data": Object {
-                              "component": [Function],
-                            },
+                            "data": Object {},
                             "elm": <div>
                               <div>
                                                             test
@@ -1034,9 +992,7 @@ MainDOMSource {
                           "children": Array [
                             Object {
                               "children": undefined,
-                              "data": Object {
-                                "component": [Function],
-                              },
+                              "data": Object {},
                               "elm": undefined,
                               "key": undefined,
                               "sel": "div",
@@ -1044,18 +1000,14 @@ MainDOMSource {
                             },
                             Object {
                               "children": undefined,
-                              "data": Object {
-                                "component": [Function],
-                              },
+                              "data": Object {},
                               "elm": undefined,
                               "key": undefined,
                               "sel": "span",
                               "text": "test span",
                             },
                           ],
-                          "data": Object {
-                            "component": [Function],
-                          },
+                          "data": Object {},
                           "elm": undefined,
                           "key": undefined,
                           "sel": "div",
@@ -1107,9 +1059,7 @@ MainDOMSource {
                           "children": Array [
                             Object {
                               "children": "test",
-                              "data": Object {
-                                "component": [Function],
-                              },
+                              "data": Object {},
                               "elm": <div>
                                 test
 </div>,
@@ -1119,9 +1069,7 @@ MainDOMSource {
                             },
                             Object {
                               "children": "test span",
-                              "data": Object {
-                                "component": [Function],
-                              },
+                              "data": Object {},
                               "elm": <span>
                                 test span
 </span>,
@@ -1130,9 +1078,7 @@ MainDOMSource {
                               "text": "test span",
                             },
                           ],
-                          "data": Object {
-                            "component": [Function],
-                          },
+                          "data": Object {},
                           "elm": <div>
                             <div>
                                                         test
@@ -1288,9 +1234,7 @@ MainDOMSource {
                             "children": Array [
                               Object {
                                 "children": "test",
-                                "data": Object {
-                                  "component": [Function],
-                                },
+                                "data": Object {},
                                 "elm": <div>
                                   test
 </div>,
@@ -1300,9 +1244,7 @@ MainDOMSource {
                               },
                               Object {
                                 "children": "test span",
-                                "data": Object {
-                                  "component": [Function],
-                                },
+                                "data": Object {},
                                 "elm": <span>
                                   test span
 </span>,
@@ -1311,9 +1253,7 @@ MainDOMSource {
                                 "text": "test span",
                               },
                             ],
-                            "data": Object {
-                              "component": [Function],
-                            },
+                            "data": Object {},
                             "elm": <div>
                               <div>
                                                             test
@@ -2047,9 +1987,7 @@ MainDOMSource {
                                 },
                                 Object {
                                   "children": "test span",
-                                  "data": Object {
-                                    "component": [Function],
-                                  },
+                                  "data": Object {},
                                   "elm": <span>
                                     test span
 </span>,
@@ -2058,9 +1996,7 @@ MainDOMSource {
                                   "text": "test span",
                                 },
                               ],
-                              "data": Object {
-                                "component": [Function],
-                              },
+                              "data": Object {},
                               "elm": <div>
                                 <div
                                                                 class="a"
@@ -2149,18 +2085,14 @@ MainDOMSource {
                                                     },
                                                     Object {
                                                       "children": undefined,
-                                                      "data": Object {
-                                                        "component": [Function],
-                                                      },
+                                                      "data": Object {},
                                                       "elm": undefined,
                                                       "key": undefined,
                                                       "sel": "span",
                                                       "text": "test span",
                                                     },
                                                   ],
-                                                  "data": Object {
-                                                    "component": [Function],
-                                                  },
+                                                  "data": Object {},
                                                   "elm": undefined,
                                                   "key": undefined,
                                                   "sel": "div",
@@ -2275,9 +2207,7 @@ MainDOMSource {
                               },
                               Object {
                                 "children": "test span",
-                                "data": Object {
-                                  "component": [Function],
-                                },
+                                "data": Object {},
                                 "elm": <span>
                                   test span
 </span>,
@@ -2286,9 +2216,7 @@ MainDOMSource {
                                 "text": "test span",
                               },
                             ],
-                            "data": Object {
-                              "component": [Function],
-                            },
+                            "data": Object {},
                             "elm": <div>
                               <div
                                                             class="a"
@@ -2434,18 +2362,14 @@ MainDOMSource {
                             },
                             Object {
                               "children": undefined,
-                              "data": Object {
-                                "component": [Function],
-                              },
+                              "data": Object {},
                               "elm": undefined,
                               "key": undefined,
                               "sel": "span",
                               "text": "test span",
                             },
                           ],
-                          "data": Object {
-                            "component": [Function],
-                          },
+                          "data": Object {},
                           "elm": undefined,
                           "key": undefined,
                           "sel": "div",
@@ -2514,9 +2438,7 @@ MainDOMSource {
                             },
                             Object {
                               "children": "test span",
-                              "data": Object {
-                                "component": [Function],
-                              },
+                              "data": Object {},
                               "elm": <span>
                                 test span
 </span>,
@@ -2525,9 +2447,7 @@ MainDOMSource {
                               "text": "test span",
                             },
                           ],
-                          "data": Object {
-                            "component": [Function],
-                          },
+                          "data": Object {},
                           "elm": <div>
                             <div
                                                         class="a"
@@ -2708,9 +2628,7 @@ MainDOMSource {
                               },
                               Object {
                                 "children": "test span",
-                                "data": Object {
-                                  "component": [Function],
-                                },
+                                "data": Object {},
                                 "elm": <span>
                                   test span
 </span>,
@@ -2719,9 +2637,7 @@ MainDOMSource {
                                 "text": "test span",
                               },
                             ],
-                            "data": Object {
-                              "component": [Function],
-                            },
+                            "data": Object {},
                             "elm": <div>
                               <div
                                                             class="a"

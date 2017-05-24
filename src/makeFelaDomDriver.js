@@ -29,13 +29,13 @@ export function createClassNames(renderer) {
 export default function makeFelaDomDriver(
   selector,
   { renderedOpts = {}, customStyleNode } = {},
-  staticRules = () => ({}),
+  staticRules = [],
 ) {
   const fn = makeDOMDriver(selector)
   const renderer = createRenderer(renderedOpts)
   const mountNode = customStyleNode || document.createElement('style')
   document.head.appendChild(mountNode)
   render(renderer, mountNode)
-  renderer.renderStatic(staticRules)
+  staticRules.map(renderer.renderStatic)
   return (vnode$, name) => fn(vnode$.map(createClassNames(renderer)), name)
 }

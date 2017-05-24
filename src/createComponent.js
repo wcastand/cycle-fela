@@ -1,4 +1,4 @@
-import h from './h'
+import { h } from 'snabbdom'
 
 export default function createComponent(rules, selector = 'div') {
   return function(props, children) {
@@ -6,6 +6,6 @@ export default function createComponent(rules, selector = 'div') {
     const p = arguments.length === 1
       ? { component: rules }
       : Object.assign({}, props, { component: rules })
-    return h(c, rules, p, selector)
+    return h(selector, p, c)
   }
 }
