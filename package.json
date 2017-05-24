@@ -1,5 +1,5 @@
 {
-  "name": "@wcastand/cycle-fela",
+  "name": "cycle-fela",
   "version": "0.0.1",
   "description": "Use fela in cycle js",
   "main": "lib/index.js",
