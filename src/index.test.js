@@ -14,12 +14,17 @@ function createBase(selector) {
   document.body.appendChild(el)
   return el
 }
-function createDriver(selector) {
-  return makeFelaDomDriver(createBase(selector), { customStyleNode: styleNode })
+function createDriver(selector, theme = null) {
+  return makeFelaDomDriver(createBase(selector), { customStyleNode: styleNode, theme })
 }
 
 describe('Cycle app', () => {
-  it('should render corectly', done => {
+  expect.assertions(2)
+
+  it('should render corectly', () => {
+    expect.assertions(2)
+    jest.useFakeTimers()
+
     const RedLabel = createComponent(() => ({ color: 'red' }), 'label')
     const Container = createComponent(({ mobile = true }) => ({
       display: 'flex',
@@ -40,11 +45,14 @@ describe('Cycle app', () => {
 
       expect(style).toMatchSnapshot()
       expect(dom).toMatchSnapshot()
-      done()
-    }, 150)
+    }, 300)
+    jest.runAllTimers()
   })
 
-  it('should have a dom and a style', done => {
+  it('should have a dom and a style', () => {
+    expect.assertions(2)
+    jest.useFakeTimers()
+
     function main(sources) {
       const vdom$ = xs.of(
         div([
@@ -65,7 +73,34 @@ describe('Cycle app', () => {
 
       expect(style).toMatchSnapshot()
       expect(dom).toMatchSnapshot()
-      done()
-    }, 150)
+    }, 300)
+    jest.runAllTimers()
+  })
+  it('should pass a theme prop to createComponent', () => {
+    expect.assertions(2)
+    jest.useFakeTimers()
+
+    const RedLabel = createComponent(props => ({ color: props.theme.color }), 'label')
+    const Container = createComponent(({ mobile = true }) => ({
+      display: 'flex',
+      flex: mobile ? '1' : '2',
+    }))
+    function main(sources) {
+      const vdom$ = xs.of(
+        Container({ mobile: false }, [RedLabel('test'), span('Name:'), hr(), span(`Hello`)]),
+      )
+      return { DOM: vdom$ }
+    }
+    const theme = { color: 'red' }
+    run(main, { DOM: createDriver('app', theme) })
+
+    setTimeout(() => {
+      const style = document.querySelector('style')
+      const dom = document.querySelector('#app')
+      expect(style).toMatchSnapshot()
+      expect(dom).toMatchSnapshot()
+    }, 300)
+
+    jest.runAllTimers()
   })
 })

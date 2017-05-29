@@ -29,6 +29,37 @@ exports[`Cycle app should have a dom and a style 2`] = `
 </div>
 `;
 
+exports[`Cycle app should pass a theme prop to createComponent 1`] = `
+<style
+  data-fela-stylesheet=""
+>
+  .a{color:red}.b{display:flex}.c{flex:2}
+</style>
+`;
+
+exports[`Cycle app should pass a theme prop to createComponent 2`] = `
+<div
+  id="app"
+>
+  <div
+    class="b c"
+  >
+    <label
+      class="a"
+    >
+      test
+    </label>
+    <span>
+      Name:
+    </span>
+    <hr />
+    <span>
+      Hello
+    </span>
+  </div>
+</div>
+`;
+
 exports[`Cycle app should render corectly 1`] = `
 <style
   data-fela-stylesheet=""

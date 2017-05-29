@@ -68,18 +68,18 @@ describe('createClassNames', () => {
   it('should be a function', () => {
     const renderer = createRenderer()
 
-    expect(typeof createClassNames(renderer)).toBe('function')
+    expect(typeof createClassNames(renderer, null)).toBe('function')
   })
 
   it('should return an object', () => {
     const renderer = createRenderer()
-    const preClass = createClassNames(renderer)
+    const preClass = createClassNames(renderer, null)
 
     expect(typeof preClass(div('test'))).toBe('object')
   })
   it('should return an object with component props', () => {
     const renderer = createRenderer()
-    const preClass = createClassNames(renderer)
+    const preClass = createClassNames(renderer, null)
     const result = preClass(h('span', { component: () => ({ color: 'red' }) }, 'test'))
 
     expect(typeof result.data.component).toBe('function')
