@@ -1,6 +1,6 @@
 {
   "name": "cycle-fela",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Use fela in cycle js",
   "main": "lib/index.js",
   "jsnext:main": "dist/cycle-fela.es.js",
