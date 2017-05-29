@@ -1,4 +1,5 @@
 import { h } from 'snabbdom'
+import { combineRules } from 'fela'
 
 export default function createComponent(rules, selector = 'div') {
   return function(props, children) {
@@ -6,6 +7,12 @@ export default function createComponent(rules, selector = 'div') {
     const p = arguments.length === 1
       ? { component: rules }
       : Object.assign({}, props, { component: rules })
-    return h(selector, p, c)
+    if (typeof selector === 'string') {
+      return h(selector, p, c)
+    }
+    const sel = selector(p, c)
+    const mergedRules = combineRules(sel.data.component, rules)
+    const pp = Object.assign({}, p, { component: mergedRules })
+    return h(sel.sel, pp, c)
   }
 }

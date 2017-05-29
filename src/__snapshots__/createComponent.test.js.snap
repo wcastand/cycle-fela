@@ -12,3 +12,29 @@ Object {
   "text": "test",
 }
 `;
+
+exports[`createComponent should compose 1`] = `
+Object {
+  "children": undefined,
+  "data": Object {
+    "component": [Function],
+  },
+  "elm": undefined,
+  "key": undefined,
+  "sel": "div",
+  "text": "test",
+}
+`;
+
+exports[`createComponent should compose and overwrite rule 1`] = `
+Object {
+  "children": undefined,
+  "data": Object {
+    "component": [Function],
+  },
+  "elm": undefined,
+  "key": undefined,
+  "sel": "div",
+  "text": "test",
+}
+`;
