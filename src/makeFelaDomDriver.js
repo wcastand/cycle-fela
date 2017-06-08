@@ -1,10 +1,7 @@
 import { makeDOMDriver } from '@cycle/dom'
 import { h } from 'snabbdom'
-import fela from 'fela'
-import felaDom from 'fela-dom'
-
-const { createRenderer } = fela
-const { render } = felaDom
+import { createRenderer } from 'fela'
+import { render } from 'fela-dom'
 
 export function createClassNames(renderer, theme) {
   return vnode => {

@@ -1,7 +1,5 @@
 import { h } from 'snabbdom'
-import fela from 'fela'
-
-const { combineRules } = fela
+import { combineRules } from 'fela'
 
 export default function createComponent(rules, selector = 'div') {
   return function(props, children) {

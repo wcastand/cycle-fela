@@ -1,9 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Cycle app should have a dom and a style 1`] = `
-<style
-  data-fela-stylesheet=""
->
+<style>
   .a{background-color:red}
 </style>
 `;
@@ -30,9 +28,7 @@ exports[`Cycle app should have a dom and a style 2`] = `
 `;
 
 exports[`Cycle app should pass a theme prop to createComponent 1`] = `
-<style
-  data-fela-stylesheet=""
->
+<style>
   .a{color:red}.b{display:flex}.c{flex:2}
 </style>
 `;
@@ -61,9 +57,7 @@ exports[`Cycle app should pass a theme prop to createComponent 2`] = `
 `;
 
 exports[`Cycle app should render corectly 1`] = `
-<style
-  data-fela-stylesheet=""
->
+<style>
   .a{color:red}.b{display:flex}.c{flex:2}
 </style>
 `;
